@@ -6,7 +6,7 @@ from aiogram import Bot, Dispatcher, types,html
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 from aiogram.filters import Command
-TOKEN = "8041784280:AAEg2XiiwMw6DT43r2KVvDNfW1UC_xpBUEg"
+TOKEN = "8266971582:AAHLTWHdV2hXUo2m-5tElY9yfd3bg6aqgUA"
 
 
 dp = Dispatcher()
@@ -46,4 +46,5 @@ async def main():
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, stream=sys.stdout)
     asyncio.run(main())
+
 
